@@ -1,0 +1,224 @@
+2024-08-02 15:02:54.771 +03:00 [INF] Starting up
+2024-08-02 15:02:55.630 +03:00 [INF] User profile is available. Using 'C:\Users\deniz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-02 15:02:55.748 +03:00 [INF] Now listening on: https://localhost:7046
+2024-08-02 15:02:55.749 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-02 15:02:55.750 +03:00 [INF] Hosting environment: Development
+2024-08-02 15:02:55.751 +03:00 [INF] Content root path: C:\Users\deniz\source\repos\DotnetCap\WebUI
+2024-08-02 15:02:56.795 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/ - null null
+2024-08-02 15:02:56.888 +03:00 [INF] Executing endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-02 15:02:56.922 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.HomeController (WebUI).
+2024-08-02 15:02:56.939 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-02 15:02:56.985 +03:00 [INF] Executed ViewResult - view Index executed in 50.7103ms.
+2024-08-02 15:02:56.989 +03:00 [INF] Executed action WebUI.Controllers.HomeController.Index (WebUI) in 63.7072ms
+2024-08-02 15:02:56.990 +03:00 [INF] Executed endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-02 15:02:56.994 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/ - 200 null text/html; charset=utf-8 202.3113ms
+2024-08-02 15:02:57.160 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-02 15:02:57.160 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-02 15:02:57.188 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 28.1689ms
+2024-08-02 15:02:57.212 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.9417ms
+2024-08-02 15:03:00.156 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/Index - null null
+2024-08-02 15:03:00.164 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-02 15:03:00.165 +03:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-02 15:03:00.171 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-02 15:03:00.180 +03:00 [INF] Executed ViewResult - view Index executed in 10.0333ms.
+2024-08-02 15:03:00.185 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.Index (WebUI) in 18.1803ms
+2024-08-02 15:03:00.187 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-02 15:03:00.187 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-02 15:03:00.187 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-02 15:03:00.191 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/Index - 200 null text/html; charset=utf-8 34.2497ms
+2024-08-02 15:03:00.192 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 5.1901ms
+2024-08-02 15:03:00.196 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/GetProducts - null null
+2024-08-02 15:03:00.203 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.4533ms
+2024-08-02 15:03:00.204 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-02 15:03:00.210 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-02 15:03:00.221 +03:00 [INF] Start processing HTTP request GET http://localhost:7183/api/products/getall
+2024-08-02 15:03:00.224 +03:00 [INF] Sending HTTP request GET http://localhost:7183/api/products/getall
+2024-08-02 15:03:00.301 +03:00 [ERR] An error occurred while fetching products.
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpIOException: The response ended prematurely. (ResponseEnded)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at WebUI.Controllers.ProductsController.GetProducts() in C:\Users\deniz\source\repos\DotnetCap\WebUI\Controllers\ProductsController.cs:line 45
+2024-08-02 15:03:00.342 +03:00 [INF] Executing JsonResult, writing value of type 'null'.
+2024-08-02 15:03:00.346 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.GetProducts (WebUI) in 133.6448ms
+2024-08-02 15:03:00.347 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-02 15:03:00.348 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/GetProducts - 200 null application/json; charset=utf-8 152.266ms
+2024-08-02 15:03:44.674 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/ViewCategories - null null
+2024-08-02 15:03:44.682 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.ViewCategories (WebUI)'
+2024-08-02 15:03:44.683 +03:00 [INF] Route matched with {action = "ViewCategories", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewCategories() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-02 15:03:44.684 +03:00 [INF] Executing ViewResult, running view ViewCategories.
+2024-08-02 15:03:44.688 +03:00 [INF] Executed ViewResult - view ViewCategories executed in 4.239ms.
+2024-08-02 15:03:44.692 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.ViewCategories (WebUI) in 7.9626ms
+2024-08-02 15:03:44.693 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.ViewCategories (WebUI)'
+2024-08-02 15:03:44.693 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/ViewCategories - 200 null text/html; charset=utf-8 20.0036ms
+2024-08-02 15:03:44.698 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-02 15:03:44.698 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-02 15:03:44.705 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 7.0947ms
+2024-08-02 15:03:44.710 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/GetCategories - null null
+2024-08-02 15:03:44.719 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.6831ms
+2024-08-02 15:03:44.720 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.GetCategories (WebUI)'
+2024-08-02 15:03:44.725 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCategories() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-02 15:03:44.729 +03:00 [INF] Start processing HTTP request GET http://localhost:7258/api/categories/getall
+2024-08-02 15:03:44.730 +03:00 [INF] Sending HTTP request GET http://localhost:7258/api/categories/getall
+2024-08-02 15:03:44.801 +03:00 [ERR] An error occurred while fetching categories.
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpIOException: The response ended prematurely. (ResponseEnded)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at WebUI.Controllers.ProductsController.GetCategories() in C:\Users\deniz\source\repos\DotnetCap\WebUI\Controllers\ProductsController.cs:line 71
+2024-08-02 15:03:44.807 +03:00 [INF] Executing JsonResult, writing value of type 'null'.
+2024-08-02 15:03:44.807 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.GetCategories (WebUI) in 80.5839ms
+2024-08-02 15:03:44.808 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.GetCategories (WebUI)'
+2024-08-02 15:03:44.809 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/GetCategories - 200 null application/json; charset=utf-8 98.6648ms
+2024-08-02 15:03:45.466 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/UpdateCategory - null null
+2024-08-02 15:03:45.468 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.UpdateCategory (WebUI)'
+2024-08-02 15:03:45.469 +03:00 [INF] Route matched with {action = "UpdateCategory", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateCategory() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-02 15:03:45.472 +03:00 [INF] Executing ViewResult, running view UpdateCategory.
+2024-08-02 15:03:45.478 +03:00 [INF] Executed ViewResult - view UpdateCategory executed in 6.3546ms.
+2024-08-02 15:03:45.479 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.UpdateCategory (WebUI) in 7.7472ms
+2024-08-02 15:03:45.479 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.UpdateCategory (WebUI)'
+2024-08-02 15:03:45.480 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/UpdateCategory - 200 null text/html; charset=utf-8 14.729ms
+2024-08-02 15:03:45.486 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-02 15:03:45.486 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-02 15:03:45.490 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 3.6307ms
+2024-08-02 15:03:45.493 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.2602ms
+2024-08-02 15:03:47.681 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7046/Products/UpdateCategory - application/json 45
+2024-08-02 15:03:47.682 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.UpdateCategory (WebUI)'
+2024-08-02 15:03:47.689 +03:00 [INF] Route matched with {action = "UpdateCategory", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateCategory(WebUI.Controllers.UpdateCategoryDto) on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-02 15:03:47.709 +03:00 [INF] Start processing HTTP request POST http://localhost:7258/api/categories/update
+2024-08-02 15:03:47.709 +03:00 [INF] Sending HTTP request POST http://localhost:7258/api/categories/update
+2024-08-02 15:03:47.741 +03:00 [ERR] An error occurred while updating category.
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpIOException: The response ended prematurely. (ResponseEnded)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at WebUI.Controllers.ProductsController.UpdateCategory(UpdateCategoryDto updateCategoryDto) in C:\Users\deniz\source\repos\DotnetCap\WebUI\Controllers\ProductsController.cs:line 97
+2024-08-02 15:03:47.746 +03:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-02 15:03:47.750 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.UpdateCategory (WebUI) in 60.1799ms
+2024-08-02 15:03:47.751 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.UpdateCategory (WebUI)'
+2024-08-02 15:03:47.752 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7046/Products/UpdateCategory - 200 null application/json; charset=utf-8 70.9268ms
+2024-08-02 16:09:41.297 +03:00 [INF] Starting up
+2024-08-02 16:09:42.227 +03:00 [INF] User profile is available. Using 'C:\Users\deniz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-02 16:09:42.360 +03:00 [INF] Now listening on: https://localhost:7046
+2024-08-02 16:09:42.363 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-02 16:09:42.365 +03:00 [INF] Hosting environment: Development
+2024-08-02 16:09:42.366 +03:00 [INF] Content root path: C:\Users\deniz\source\repos\DotnetCap\WebUI
+2024-08-02 16:09:43.170 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/ - null null
+2024-08-02 16:09:43.266 +03:00 [INF] Executing endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-02 16:09:43.291 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.HomeController (WebUI).
+2024-08-02 16:09:43.300 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-02 16:09:43.346 +03:00 [INF] Executed ViewResult - view Index executed in 48.077ms.
+2024-08-02 16:09:43.353 +03:00 [INF] Executed action WebUI.Controllers.HomeController.Index (WebUI) in 59.657ms
+2024-08-02 16:09:43.354 +03:00 [INF] Executed endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-02 16:09:43.358 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/ - 200 null text/html; charset=utf-8 189.3812ms
+2024-08-02 16:09:43.365 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-02 16:09:43.365 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-02 16:09:43.382 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 18.7962ms
+2024-08-02 16:09:43.409 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.603ms
+2024-08-02 16:10:40.589 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/Index - null null
+2024-08-02 16:10:40.600 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-02 16:10:40.602 +03:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-02 16:10:40.606 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-02 16:10:40.615 +03:00 [INF] Executed ViewResult - view Index executed in 9.5543ms.
+2024-08-02 16:10:40.619 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.Index (WebUI) in 16.2956ms
+2024-08-02 16:10:40.620 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-02 16:10:40.624 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-02 16:10:40.623 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-02 16:10:40.628 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/Index - 200 null text/html; charset=utf-8 39.7712ms
+2024-08-02 16:10:40.630 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 9.0363ms
+2024-08-02 16:10:40.634 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/GetProducts - null null
+2024-08-02 16:10:40.641 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.9608ms
+2024-08-02 16:10:40.641 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-02 16:10:40.648 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-02 16:10:40.658 +03:00 [INF] Start processing HTTP request GET http://localhost:7183/api/products/getall
+2024-08-02 16:10:40.659 +03:00 [INF] Sending HTTP request GET http://localhost:7183/api/products/getall
+2024-08-02 16:10:40.731 +03:00 [ERR] An error occurred while fetching products.
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpIOException: The response ended prematurely. (ResponseEnded)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at WebUI.Controllers.ProductsController.GetProducts() in C:\Users\deniz\source\repos\DotnetCap\WebUI\Controllers\ProductsController.cs:line 45
+2024-08-02 16:10:40.771 +03:00 [INF] Executing JsonResult, writing value of type 'null'.
+2024-08-02 16:10:40.777 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.GetProducts (WebUI) in 127.4963ms
+2024-08-02 16:10:40.777 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-02 16:10:40.778 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/GetProducts - 200 null application/json; charset=utf-8 144.3181ms
+2024-08-02 16:10:58.101 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/ViewCategories - null null
+2024-08-02 16:10:58.105 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.ViewCategories (WebUI)'
+2024-08-02 16:10:58.107 +03:00 [INF] Route matched with {action = "ViewCategories", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewCategories() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-02 16:10:58.109 +03:00 [INF] Executing ViewResult, running view ViewCategories.
+2024-08-02 16:10:58.112 +03:00 [INF] Executed ViewResult - view ViewCategories executed in 3.9531ms.
+2024-08-02 16:10:58.114 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.ViewCategories (WebUI) in 5.5156ms
+2024-08-02 16:10:58.114 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.ViewCategories (WebUI)'
+2024-08-02 16:10:58.115 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/ViewCategories - 200 null text/html; charset=utf-8 14.5392ms
+2024-08-02 16:10:58.124 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-02 16:10:58.124 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-02 16:10:58.130 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 5.7409ms
+2024-08-02 16:10:58.134 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.4757ms
+2024-08-02 16:10:58.164 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/GetCategories - null null
+2024-08-02 16:10:58.166 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.GetCategories (WebUI)'
+2024-08-02 16:10:58.170 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCategories() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-02 16:10:58.173 +03:00 [INF] Start processing HTTP request GET http://localhost:7258/api/categories/getall
+2024-08-02 16:10:58.174 +03:00 [INF] Sending HTTP request GET http://localhost:7258/api/categories/getall
+2024-08-02 16:10:58.234 +03:00 [ERR] An error occurred while fetching categories.
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpIOException: The response ended prematurely. (ResponseEnded)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at WebUI.Controllers.ProductsController.GetCategories() in C:\Users\deniz\source\repos\DotnetCap\WebUI\Controllers\ProductsController.cs:line 71
+2024-08-02 16:10:58.240 +03:00 [INF] Executing JsonResult, writing value of type 'null'.
+2024-08-02 16:10:58.241 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.GetCategories (WebUI) in 69.4175ms
+2024-08-02 16:10:58.242 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.GetCategories (WebUI)'
+2024-08-02 16:10:58.243 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/GetCategories - 200 null application/json; charset=utf-8 78.9391ms
+2024-08-02 16:13:39.880 +03:00 [INF] Starting up
+2024-08-02 16:13:40.634 +03:00 [INF] User profile is available. Using 'C:\Users\deniz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-02 16:13:40.760 +03:00 [INF] Now listening on: https://localhost:7046
+2024-08-02 16:13:40.763 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-02 16:13:40.763 +03:00 [INF] Hosting environment: Development
+2024-08-02 16:13:40.764 +03:00 [INF] Content root path: C:\Users\deniz\source\repos\DotnetCap\WebUI
+2024-08-02 16:13:41.680 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/ - null null
+2024-08-02 16:13:41.775 +03:00 [INF] Executing endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-02 16:13:41.796 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.HomeController (WebUI).
+2024-08-02 16:13:41.809 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-02 16:13:41.862 +03:00 [INF] Executed ViewResult - view Index executed in 57.4976ms.
+2024-08-02 16:13:41.868 +03:00 [INF] Executed action WebUI.Controllers.HomeController.Index (WebUI) in 69.527ms
+2024-08-02 16:13:41.869 +03:00 [INF] Executed endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-02 16:13:41.876 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/ - 200 null text/html; charset=utf-8 196.262ms
+2024-08-02 16:13:41.881 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-02 16:13:41.881 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-02 16:13:41.899 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 18.0259ms
+2024-08-02 16:13:41.925 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.9863ms

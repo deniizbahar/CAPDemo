@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\deniz\\source\\repos\\DotnetCap\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA10CD37-F9BC-400E-BEEA-1962C5415B9E}|CategoryAPI\\CategoryAPI.csproj|c:\\users\\deniz\\source\\repos\\dotnetcap\\categoryapi\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA10CD37-F9BC-400E-BEEA-1962C5415B9E}|CategoryAPI\\CategoryAPI.csproj|solutionrelative:categoryapi\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA10CD37-F9BC-400E-BEEA-1962C5415B9E}|CategoryAPI\\CategoryAPI.csproj|c:\\users\\deniz\\source\\repos\\dotnetcap\\categoryapi\\service\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA10CD37-F9BC-400E-BEEA-1962C5415B9E}|CategoryAPI\\CategoryAPI.csproj|solutionrelative:categoryapi\\service\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89CC2986-BDD5-4A23-A85C-EBB55C51C304}|ProductAPI\\ProductAPI.csproj|c:\\users\\deniz\\source\\repos\\dotnetcap\\productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89CC2986-BDD5-4A23-A85C-EBB55C51C304}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA10CD37-F9BC-400E-BEEA-1962C5415B9E}|CategoryAPI\\CategoryAPI.csproj|c:\\users\\deniz\\source\\repos\\dotnetcap\\categoryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA10CD37-F9BC-400E-BEEA-1962C5415B9E}|CategoryAPI\\CategoryAPI.csproj|solutionrelative:categoryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 298,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\source\\repos\\DotnetCap\\CategoryAPI\\Service\\CategoryService.cs",
+              "RelativeDocumentMoniker": "CategoryAPI\\Service\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\deniz\\source\\repos\\DotnetCap\\CategoryAPI\\Service\\CategoryService.cs",
+              "RelativeToolTip": "CategoryAPI\\Service\\CategoryService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAswBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T11:09:06.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\source\\repos\\DotnetCap\\CategoryAPI\\Service\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "CategoryAPI\\Service\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\deniz\\source\\repos\\DotnetCap\\CategoryAPI\\Service\\ICategoryService.cs",
+              "RelativeToolTip": "CategoryAPI\\Service\\ICategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T11:09:03.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\source\\repos\\DotnetCap\\CategoryAPI\\Program.cs",
+              "RelativeDocumentMoniker": "CategoryAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\deniz\\source\\repos\\DotnetCap\\CategoryAPI\\Program.cs",
+              "RelativeToolTip": "CategoryAPI\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T13:08:59.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\source\\repos\\DotnetCap\\ProductAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ProductAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\deniz\\source\\repos\\DotnetCap\\ProductAPI\\Program.cs",
+              "RelativeToolTip": "ProductAPI\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T13:07:43.907Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Categories";
+}
+
+<h2>Categories</h2>
+<div id="categoryList">
+    <!-- Kategori listesi burada gösterilecek -->
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        fetch('/Products/GetCategories')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.text(); // Yanıtı metin olarak okur
+            })
+            .then(text => {
+                try {
+                    const data = JSON.parse(text); // Metni JSON'a dönüştürmeye çalışır
+                    if (data) {
+                        displayCategories(data);
+                    } else {
+                        throw new Error('Parsed data is null or undefined');
+                    }
+                } catch (error) {
+                    console.error('Error parsing JSON:', error);
+                    document.getElementById('categoryList').innerHTML = 'Error parsing JSON.';
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching category list:', error);
+                document.getElementById('categoryList').innerHTML = 'Error loading categories.';
+            });
+    });
+
+    function displayCategories(categories) {
+        var categoryList = document.getElementById('categoryList');
+        categoryList.innerHTML = '';
+
+        if (!Array.isArray(categories)) {
+            console.error('Categories data is not an array:', categories);
+            document.getElementById('categoryList').innerHTML = 'Invalid category data.';
+            return;
+        }
+
+        categories.forEach(category => {
+            var categoryItem = document.createElement('div');
+            categoryItem.innerHTML = `
+                    <h3>${category.categoryName}</h3>
+                `;
+            categoryList.appendChild(categoryItem);
+        });
+    }
+</script>

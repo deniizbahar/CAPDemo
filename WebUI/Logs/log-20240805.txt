@@ -1,0 +1,625 @@
+2024-08-05 09:11:56.805 +03:00 [INF] Starting up
+2024-08-05 09:12:00.223 +03:00 [INF] User profile is available. Using 'C:\Users\deniz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-05 09:12:00.617 +03:00 [INF] Now listening on: https://localhost:7046
+2024-08-05 09:12:00.620 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-05 09:12:00.621 +03:00 [INF] Hosting environment: Development
+2024-08-05 09:12:00.621 +03:00 [INF] Content root path: C:\Users\deniz\source\repos\DotnetCap\WebUI
+2024-08-05 09:12:01.820 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/ - null null
+2024-08-05 09:12:02.003 +03:00 [INF] Executing endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 09:12:02.052 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.HomeController (WebUI).
+2024-08-05 09:12:02.064 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 09:12:02.143 +03:00 [INF] Executed ViewResult - view Index executed in 80.9524ms.
+2024-08-05 09:12:02.147 +03:00 [INF] Executed action WebUI.Controllers.HomeController.Index (WebUI) in 92.6959ms
+2024-08-05 09:12:02.148 +03:00 [INF] Executed endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 09:12:02.152 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/ - 200 null text/html; charset=utf-8 333.1204ms
+2024-08-05 09:12:02.160 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 09:12:02.160 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 09:12:02.179 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 19.4312ms
+2024-08-05 09:12:02.221 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.8171ms
+2024-08-05 09:13:15.646 +03:00 [INF] Starting up
+2024-08-05 09:13:16.507 +03:00 [INF] User profile is available. Using 'C:\Users\deniz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-05 09:13:16.643 +03:00 [INF] Now listening on: https://localhost:7046
+2024-08-05 09:13:16.645 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-05 09:13:16.646 +03:00 [INF] Hosting environment: Development
+2024-08-05 09:13:16.647 +03:00 [INF] Content root path: C:\Users\deniz\source\repos\DotnetCap\WebUI
+2024-08-05 09:13:17.332 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/ - null null
+2024-08-05 09:13:17.419 +03:00 [INF] Executing endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 09:13:17.448 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.HomeController (WebUI).
+2024-08-05 09:13:17.458 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 09:13:17.507 +03:00 [INF] Executed ViewResult - view Index executed in 49.7752ms.
+2024-08-05 09:13:17.511 +03:00 [INF] Executed action WebUI.Controllers.HomeController.Index (WebUI) in 61.3542ms
+2024-08-05 09:13:17.512 +03:00 [INF] Executed endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 09:13:17.517 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/ - 200 null text/html; charset=utf-8 186.0169ms
+2024-08-05 09:13:17.523 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 09:13:17.523 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 09:13:17.542 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 18.6905ms
+2024-08-05 09:13:17.565 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.7708ms
+2024-08-05 09:13:24.526 +03:00 [INF] Starting up
+2024-08-05 09:13:25.358 +03:00 [INF] User profile is available. Using 'C:\Users\deniz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-05 09:13:25.490 +03:00 [INF] Now listening on: https://localhost:7046
+2024-08-05 09:13:25.493 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-05 09:13:25.495 +03:00 [INF] Hosting environment: Development
+2024-08-05 09:13:25.495 +03:00 [INF] Content root path: C:\Users\deniz\source\repos\DotnetCap\WebUI
+2024-08-05 09:13:26.635 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/ - null null
+2024-08-05 09:13:26.744 +03:00 [INF] Executing endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 09:13:26.775 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.HomeController (WebUI).
+2024-08-05 09:13:26.788 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 09:13:26.830 +03:00 [INF] Executed ViewResult - view Index executed in 47.4997ms.
+2024-08-05 09:13:26.835 +03:00 [INF] Executed action WebUI.Controllers.HomeController.Index (WebUI) in 57.8473ms
+2024-08-05 09:13:26.836 +03:00 [INF] Executed endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 09:13:26.841 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/ - 200 null text/html; charset=utf-8 206.3903ms
+2024-08-05 09:13:26.841 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 09:13:26.842 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 09:13:26.858 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 16.939ms
+2024-08-05 09:13:26.881 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.3828ms
+2024-08-05 09:14:25.978 +03:00 [INF] Starting up
+2024-08-05 09:14:26.809 +03:00 [INF] User profile is available. Using 'C:\Users\deniz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-05 09:14:26.983 +03:00 [INF] Now listening on: https://localhost:7046
+2024-08-05 09:14:26.986 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-05 09:14:26.987 +03:00 [INF] Hosting environment: Development
+2024-08-05 09:14:26.988 +03:00 [INF] Content root path: C:\Users\deniz\source\repos\DotnetCap\WebUI
+2024-08-05 09:14:27.820 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/ - null null
+2024-08-05 09:14:27.910 +03:00 [INF] Executing endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 09:14:27.940 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.HomeController (WebUI).
+2024-08-05 09:14:27.948 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 09:14:27.990 +03:00 [INF] Executed ViewResult - view Index executed in 42.5668ms.
+2024-08-05 09:14:27.996 +03:00 [INF] Executed action WebUI.Controllers.HomeController.Index (WebUI) in 54.0994ms
+2024-08-05 09:14:27.997 +03:00 [INF] Executed endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 09:14:28.002 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/ - 200 null text/html; charset=utf-8 184.037ms
+2024-08-05 09:14:28.006 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 09:14:28.006 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 09:14:28.026 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 20.4687ms
+2024-08-05 09:14:28.057 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.8685ms
+2024-08-05 09:52:39.899 +03:00 [INF] Starting up
+2024-08-05 09:52:40.677 +03:00 [INF] User profile is available. Using 'C:\Users\deniz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-05 09:52:40.805 +03:00 [INF] Now listening on: https://localhost:7046
+2024-08-05 09:52:40.808 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-05 09:52:40.809 +03:00 [INF] Hosting environment: Development
+2024-08-05 09:52:40.810 +03:00 [INF] Content root path: C:\Users\deniz\source\repos\DotnetCap\WebUI
+2024-08-05 09:52:41.699 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/ - null null
+2024-08-05 09:52:41.790 +03:00 [INF] Executing endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 09:52:41.817 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.HomeController (WebUI).
+2024-08-05 09:52:41.826 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 09:52:41.871 +03:00 [INF] Executed ViewResult - view Index executed in 47.1313ms.
+2024-08-05 09:52:41.878 +03:00 [INF] Executed action WebUI.Controllers.HomeController.Index (WebUI) in 59.6887ms
+2024-08-05 09:52:41.879 +03:00 [INF] Executed endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 09:52:41.884 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/ - 200 null text/html; charset=utf-8 185.8005ms
+2024-08-05 09:52:41.889 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 09:52:41.889 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 09:52:41.903 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 14.4652ms
+2024-08-05 09:52:41.934 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.0099ms
+2024-08-05 09:52:45.637 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/Index - null null
+2024-08-05 09:52:45.645 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 09:52:45.647 +03:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:52:45.652 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 09:52:45.663 +03:00 [INF] Executed ViewResult - view Index executed in 11.9237ms.
+2024-08-05 09:52:45.666 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.Index (WebUI) in 18.053ms
+2024-08-05 09:52:45.667 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 09:52:45.668 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/Index - 200 null text/html; charset=utf-8 31.8895ms
+2024-08-05 09:52:45.671 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 09:52:45.674 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 2.6775ms
+2024-08-05 09:52:45.674 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 09:52:45.678 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/GetProducts - null null
+2024-08-05 09:52:45.686 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 09:52:45.693 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.0772ms
+2024-08-05 09:52:45.694 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:52:45.739 +03:00 [INF] Start processing HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 09:52:45.741 +03:00 [INF] Sending HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 09:52:45.790 +03:00 [INF] Received HTTP response headers after 46.4056ms - 200
+2024-08-05 09:52:45.791 +03:00 [INF] End processing HTTP request after 53.8606ms - 200
+2024-08-05 09:52:45.820 +03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[WebUI.Controllers.Product, WebUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-05 09:52:45.826 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.GetProducts (WebUI) in 125.9028ms
+2024-08-05 09:52:45.827 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 09:52:45.828 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/GetProducts - 200 null application/json; charset=utf-8 150.5628ms
+2024-08-05 09:52:48.799 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/ViewCategories - null null
+2024-08-05 09:52:48.803 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.ViewCategories (WebUI)'
+2024-08-05 09:52:48.805 +03:00 [INF] Route matched with {action = "ViewCategories", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewCategories() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:52:48.808 +03:00 [INF] Executing ViewResult, running view ViewCategories.
+2024-08-05 09:52:48.812 +03:00 [INF] Executed ViewResult - view ViewCategories executed in 4.4442ms.
+2024-08-05 09:52:48.813 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.ViewCategories (WebUI) in 5.7894ms
+2024-08-05 09:52:48.814 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.ViewCategories (WebUI)'
+2024-08-05 09:52:48.814 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/ViewCategories - 200 null text/html; charset=utf-8 15.3838ms
+2024-08-05 09:52:48.821 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 09:52:48.822 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 09:52:48.826 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 3.6858ms
+2024-08-05 09:52:48.831 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/GetCategories - null null
+2024-08-05 09:52:48.831 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.3171ms
+2024-08-05 09:52:48.833 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.GetCategories (WebUI)'
+2024-08-05 09:52:48.839 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCategories() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:52:48.841 +03:00 [INF] Start processing HTTP request GET https://localhost:7258/api/categories/getall
+2024-08-05 09:52:48.842 +03:00 [INF] Sending HTTP request GET https://localhost:7258/api/categories/getall
+2024-08-05 09:52:48.875 +03:00 [INF] Received HTTP response headers after 31.2737ms - 404
+2024-08-05 09:52:48.875 +03:00 [INF] End processing HTTP request after 33.8577ms - 404
+2024-08-05 09:52:48.877 +03:00 [ERR] Error fetching categories: 
+2024-08-05 09:52:48.878 +03:00 [INF] Executing JsonResult, writing value of type 'null'.
+2024-08-05 09:52:48.881 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.GetCategories (WebUI) in 40.2835ms
+2024-08-05 09:52:48.881 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.GetCategories (WebUI)'
+2024-08-05 09:52:48.882 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/GetCategories - 200 null application/json; charset=utf-8 51.281ms
+2024-08-05 09:52:50.620 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/Index - null null
+2024-08-05 09:52:50.623 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 09:52:50.624 +03:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:52:50.625 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 09:52:50.626 +03:00 [INF] Executed ViewResult - view Index executed in 1.7034ms.
+2024-08-05 09:52:50.627 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.Index (WebUI) in 2.6183ms
+2024-08-05 09:52:50.628 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 09:52:50.629 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/Index - 200 null text/html; charset=utf-8 9.1113ms
+2024-08-05 09:52:50.635 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 09:52:50.635 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 09:52:50.639 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 4.5216ms
+2024-08-05 09:52:50.644 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/GetProducts - null null
+2024-08-05 09:52:50.644 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.3754ms
+2024-08-05 09:52:50.646 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 09:52:50.648 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:52:50.649 +03:00 [INF] Start processing HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 09:52:50.650 +03:00 [INF] Sending HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 09:52:50.653 +03:00 [INF] Received HTTP response headers after 2.088ms - 200
+2024-08-05 09:52:50.654 +03:00 [INF] End processing HTTP request after 4.3724ms - 200
+2024-08-05 09:52:50.655 +03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[WebUI.Controllers.Product, WebUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-05 09:52:50.656 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.GetProducts (WebUI) in 6.7256ms
+2024-08-05 09:52:50.658 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 09:52:50.659 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/GetProducts - 200 null application/json; charset=utf-8 15.3649ms
+2024-08-05 09:52:52.124 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/ViewCategories - null null
+2024-08-05 09:52:52.127 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.ViewCategories (WebUI)'
+2024-08-05 09:52:52.128 +03:00 [INF] Route matched with {action = "ViewCategories", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewCategories() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:52:52.130 +03:00 [INF] Executing ViewResult, running view ViewCategories.
+2024-08-05 09:52:52.131 +03:00 [INF] Executed ViewResult - view ViewCategories executed in 1.5943ms.
+2024-08-05 09:52:52.132 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.ViewCategories (WebUI) in 2.7863ms
+2024-08-05 09:52:52.133 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.ViewCategories (WebUI)'
+2024-08-05 09:52:52.133 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/ViewCategories - 200 null text/html; charset=utf-8 9.457ms
+2024-08-05 09:52:52.140 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 09:52:52.140 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 09:52:52.144 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 3.8006ms
+2024-08-05 09:52:52.147 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 6.6461ms
+2024-08-05 09:52:52.147 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/GetCategories - null null
+2024-08-05 09:52:52.151 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.GetCategories (WebUI)'
+2024-08-05 09:52:52.151 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCategories() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:52:52.153 +03:00 [INF] Start processing HTTP request GET https://localhost:7258/api/categories/getall
+2024-08-05 09:52:52.154 +03:00 [INF] Sending HTTP request GET https://localhost:7258/api/categories/getall
+2024-08-05 09:52:52.157 +03:00 [INF] Received HTTP response headers after 1.6628ms - 404
+2024-08-05 09:52:52.157 +03:00 [INF] End processing HTTP request after 4.0421ms - 404
+2024-08-05 09:52:52.159 +03:00 [ERR] Error fetching categories: 
+2024-08-05 09:52:52.159 +03:00 [INF] Executing JsonResult, writing value of type 'null'.
+2024-08-05 09:52:52.160 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.GetCategories (WebUI) in 6.7468ms
+2024-08-05 09:52:52.161 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.GetCategories (WebUI)'
+2024-08-05 09:52:52.161 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/GetCategories - 200 null application/json; charset=utf-8 14.6639ms
+2024-08-05 09:52:52.491 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/UpdateCategory - null null
+2024-08-05 09:52:52.494 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.UpdateCategory (WebUI)'
+2024-08-05 09:52:52.496 +03:00 [INF] Route matched with {action = "UpdateCategory", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateCategory() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:52:52.498 +03:00 [INF] Executing ViewResult, running view UpdateCategory.
+2024-08-05 09:52:52.506 +03:00 [INF] Executed ViewResult - view UpdateCategory executed in 7.9589ms.
+2024-08-05 09:52:52.507 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.UpdateCategory (WebUI) in 8.9587ms
+2024-08-05 09:52:52.508 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.UpdateCategory (WebUI)'
+2024-08-05 09:52:52.508 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/UpdateCategory - 200 null text/html; charset=utf-8 17.7096ms
+2024-08-05 09:52:52.514 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 09:52:52.515 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 09:52:52.519 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 3.9375ms
+2024-08-05 09:52:52.522 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.986ms
+2024-08-05 09:52:55.081 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7046/Products/UpdateCategory - application/json 45
+2024-08-05 09:52:55.083 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.UpdateCategory (WebUI)'
+2024-08-05 09:52:55.089 +03:00 [INF] Route matched with {action = "UpdateCategory", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateCategory(WebUI.Controllers.UpdateCategoryDto) on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:52:55.108 +03:00 [INF] Start processing HTTP request POST https://localhost:7258/api/categories/update
+2024-08-05 09:52:55.110 +03:00 [INF] Sending HTTP request POST https://localhost:7258/api/categories/update
+2024-08-05 09:52:55.116 +03:00 [INF] Received HTTP response headers after 4.6156ms - 404
+2024-08-05 09:52:55.116 +03:00 [INF] End processing HTTP request after 7.96ms - 404
+2024-08-05 09:52:55.117 +03:00 [ERR] Error updating category: 
+2024-08-05 09:52:55.118 +03:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-05 09:52:55.122 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.UpdateCategory (WebUI) in 32.0629ms
+2024-08-05 09:52:55.123 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.UpdateCategory (WebUI)'
+2024-08-05 09:52:55.123 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7046/Products/UpdateCategory - 200 null application/json; charset=utf-8 42.5025ms
+2024-08-05 09:52:56.321 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/ViewCategories - null null
+2024-08-05 09:52:56.324 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.ViewCategories (WebUI)'
+2024-08-05 09:52:56.325 +03:00 [INF] Route matched with {action = "ViewCategories", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewCategories() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:52:56.326 +03:00 [INF] Executing ViewResult, running view ViewCategories.
+2024-08-05 09:52:56.328 +03:00 [INF] Executed ViewResult - view ViewCategories executed in 1.8036ms.
+2024-08-05 09:52:56.329 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.ViewCategories (WebUI) in 3.2908ms
+2024-08-05 09:52:56.330 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.ViewCategories (WebUI)'
+2024-08-05 09:52:56.331 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/ViewCategories - 200 null text/html; charset=utf-8 9.2212ms
+2024-08-05 09:52:56.337 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 09:52:56.338 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 09:52:56.342 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 4.1498ms
+2024-08-05 09:52:56.345 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.5947ms
+2024-08-05 09:52:56.346 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/GetCategories - null null
+2024-08-05 09:52:56.349 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.GetCategories (WebUI)'
+2024-08-05 09:52:56.350 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCategories() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:52:56.351 +03:00 [INF] Start processing HTTP request GET https://localhost:7258/api/categories/getall
+2024-08-05 09:52:56.352 +03:00 [INF] Sending HTTP request GET https://localhost:7258/api/categories/getall
+2024-08-05 09:52:56.354 +03:00 [INF] Received HTTP response headers after 1.5702ms - 404
+2024-08-05 09:52:56.355 +03:00 [INF] End processing HTTP request after 4.3722ms - 404
+2024-08-05 09:52:56.356 +03:00 [ERR] Error fetching categories: 
+2024-08-05 09:52:56.357 +03:00 [INF] Executing JsonResult, writing value of type 'null'.
+2024-08-05 09:52:56.357 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.GetCategories (WebUI) in 6.657ms
+2024-08-05 09:52:56.358 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.GetCategories (WebUI)'
+2024-08-05 09:52:56.360 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/GetCategories - 200 null application/json; charset=utf-8 13.9533ms
+2024-08-05 09:52:56.940 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/Index - null null
+2024-08-05 09:52:56.943 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 09:52:56.944 +03:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:52:56.946 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 09:52:56.947 +03:00 [INF] Executed ViewResult - view Index executed in 1.3083ms.
+2024-08-05 09:52:56.948 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.Index (WebUI) in 2.2443ms
+2024-08-05 09:52:56.949 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 09:52:56.949 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/Index - 200 null text/html; charset=utf-8 9.8199ms
+2024-08-05 09:52:56.956 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 09:52:56.956 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 09:52:56.960 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 3.7939ms
+2024-08-05 09:52:56.963 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.0746ms
+2024-08-05 09:52:56.963 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/GetProducts - null null
+2024-08-05 09:52:56.967 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 09:52:56.968 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:52:56.969 +03:00 [INF] Start processing HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 09:52:56.970 +03:00 [INF] Sending HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 09:52:56.972 +03:00 [INF] Received HTTP response headers after 1.4664ms - 200
+2024-08-05 09:52:56.973 +03:00 [INF] End processing HTTP request after 3.6329ms - 200
+2024-08-05 09:52:56.974 +03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[WebUI.Controllers.Product, WebUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-05 09:52:56.974 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.GetProducts (WebUI) in 5.4761ms
+2024-08-05 09:52:56.975 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 09:52:56.976 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/GetProducts - 200 null application/json; charset=utf-8 12.5794ms
+2024-08-05 09:53:03.419 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/Index - null null
+2024-08-05 09:53:03.422 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 09:53:03.423 +03:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:53:03.424 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 09:53:03.427 +03:00 [INF] Executed ViewResult - view Index executed in 2.5333ms.
+2024-08-05 09:53:03.428 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.Index (WebUI) in 3.8419ms
+2024-08-05 09:53:03.428 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 09:53:03.429 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/Index - 200 null text/html; charset=utf-8 9.8493ms
+2024-08-05 09:53:03.437 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 09:53:03.437 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 09:53:03.441 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 3.8217ms
+2024-08-05 09:53:03.444 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.3012ms
+2024-08-05 09:53:03.445 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/GetProducts - null null
+2024-08-05 09:53:03.450 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 09:53:03.451 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:53:03.454 +03:00 [INF] Start processing HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 09:53:03.454 +03:00 [INF] Sending HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 09:53:03.457 +03:00 [INF] Received HTTP response headers after 2.0824ms - 200
+2024-08-05 09:53:03.459 +03:00 [INF] End processing HTTP request after 5.1504ms - 200
+2024-08-05 09:53:03.461 +03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[WebUI.Controllers.Product, WebUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-05 09:53:03.462 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.GetProducts (WebUI) in 8.3335ms
+2024-08-05 09:53:03.463 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 09:53:03.463 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/GetProducts - 200 null application/json; charset=utf-8 18.4988ms
+2024-08-05 09:53:04.116 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/ViewCategories - null null
+2024-08-05 09:53:04.119 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.ViewCategories (WebUI)'
+2024-08-05 09:53:04.120 +03:00 [INF] Route matched with {action = "ViewCategories", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewCategories() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:53:04.122 +03:00 [INF] Executing ViewResult, running view ViewCategories.
+2024-08-05 09:53:04.123 +03:00 [INF] Executed ViewResult - view ViewCategories executed in 1.2603ms.
+2024-08-05 09:53:04.124 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.ViewCategories (WebUI) in 2.3612ms
+2024-08-05 09:53:04.124 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.ViewCategories (WebUI)'
+2024-08-05 09:53:04.125 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/ViewCategories - 200 null text/html; charset=utf-8 9.2176ms
+2024-08-05 09:53:04.133 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 09:53:04.134 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 09:53:04.137 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 3.101ms
+2024-08-05 09:53:04.141 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.8983ms
+2024-08-05 09:53:04.142 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/GetCategories - null null
+2024-08-05 09:53:04.145 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.GetCategories (WebUI)'
+2024-08-05 09:53:04.145 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCategories() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:53:04.147 +03:00 [INF] Start processing HTTP request GET https://localhost:7258/api/categories/getall
+2024-08-05 09:53:04.147 +03:00 [INF] Sending HTTP request GET https://localhost:7258/api/categories/getall
+2024-08-05 09:53:04.150 +03:00 [INF] Received HTTP response headers after 1.7297ms - 404
+2024-08-05 09:53:04.151 +03:00 [INF] End processing HTTP request after 4.7783ms - 404
+2024-08-05 09:53:04.152 +03:00 [ERR] Error fetching categories: 
+2024-08-05 09:53:04.153 +03:00 [INF] Executing JsonResult, writing value of type 'null'.
+2024-08-05 09:53:04.154 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.GetCategories (WebUI) in 6.9251ms
+2024-08-05 09:53:04.154 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.GetCategories (WebUI)'
+2024-08-05 09:53:04.155 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/GetCategories - 200 null application/json; charset=utf-8 13.6072ms
+2024-08-05 09:53:04.651 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/Index - null null
+2024-08-05 09:53:04.654 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 09:53:04.655 +03:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:53:04.656 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 09:53:04.658 +03:00 [INF] Executed ViewResult - view Index executed in 2.2877ms.
+2024-08-05 09:53:04.660 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.Index (WebUI) in 3.7048ms
+2024-08-05 09:53:04.661 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 09:53:04.662 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/Index - 200 null text/html; charset=utf-8 10.3821ms
+2024-08-05 09:53:04.670 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 09:53:04.671 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 09:53:04.677 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 6.5319ms
+2024-08-05 09:53:04.680 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/GetProducts - null null
+2024-08-05 09:53:04.680 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.79ms
+2024-08-05 09:53:04.682 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 09:53:04.685 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:53:04.686 +03:00 [INF] Start processing HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 09:53:04.687 +03:00 [INF] Sending HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 09:53:04.689 +03:00 [INF] Received HTTP response headers after 1.1281ms - 200
+2024-08-05 09:53:04.690 +03:00 [INF] End processing HTTP request after 3.8399ms - 200
+2024-08-05 09:53:04.692 +03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[WebUI.Controllers.Product, WebUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-05 09:53:04.693 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.GetProducts (WebUI) in 6.253ms
+2024-08-05 09:53:04.693 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 09:53:04.694 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/GetProducts - 200 null application/json; charset=utf-8 14.3404ms
+2024-08-05 09:54:57.535 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/ViewCategories - null null
+2024-08-05 09:54:57.543 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.ViewCategories (WebUI)'
+2024-08-05 09:54:57.544 +03:00 [INF] Route matched with {action = "ViewCategories", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewCategories() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:54:57.545 +03:00 [INF] Executing ViewResult, running view ViewCategories.
+2024-08-05 09:54:57.547 +03:00 [INF] Executed ViewResult - view ViewCategories executed in 1.6751ms.
+2024-08-05 09:54:57.550 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.ViewCategories (WebUI) in 5.8397ms
+2024-08-05 09:54:57.551 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.ViewCategories (WebUI)'
+2024-08-05 09:54:57.552 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/ViewCategories - 200 null text/html; charset=utf-8 19.2899ms
+2024-08-05 09:54:57.556 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 09:54:57.556 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 09:54:57.560 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 3.7472ms
+2024-08-05 09:54:57.565 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/GetCategories - null null
+2024-08-05 09:54:57.574 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.0322ms
+2024-08-05 09:54:57.574 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.GetCategories (WebUI)'
+2024-08-05 09:54:57.577 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCategories() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:54:57.578 +03:00 [INF] Start processing HTTP request GET https://localhost:7258/api/categories/getall
+2024-08-05 09:54:57.579 +03:00 [INF] Sending HTTP request GET https://localhost:7258/api/categories/getall
+2024-08-05 09:54:57.588 +03:00 [INF] Received HTTP response headers after 8.2722ms - 404
+2024-08-05 09:54:57.589 +03:00 [INF] End processing HTTP request after 10.48ms - 404
+2024-08-05 09:54:57.590 +03:00 [ERR] Error fetching categories: 
+2024-08-05 09:54:57.591 +03:00 [INF] Executing JsonResult, writing value of type 'null'.
+2024-08-05 09:54:57.591 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.GetCategories (WebUI) in 12.9665ms
+2024-08-05 09:54:57.592 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.GetCategories (WebUI)'
+2024-08-05 09:54:57.594 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/GetCategories - 200 null application/json; charset=utf-8 28.5892ms
+2024-08-05 09:55:14.461 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/Index - null null
+2024-08-05 09:55:14.463 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 09:55:14.464 +03:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:55:14.466 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 09:55:14.467 +03:00 [INF] Executed ViewResult - view Index executed in 1.6832ms.
+2024-08-05 09:55:14.468 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.Index (WebUI) in 2.952ms
+2024-08-05 09:55:14.469 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 09:55:14.470 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/Index - 200 null text/html; charset=utf-8 9.3604ms
+2024-08-05 09:55:14.479 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 09:55:14.479 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 09:55:14.487 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 7.6392ms
+2024-08-05 09:55:14.494 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.6128ms
+2024-08-05 09:55:14.522 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/GetProducts - null null
+2024-08-05 09:55:14.524 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 09:55:14.525 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:55:14.527 +03:00 [INF] Start processing HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 09:55:14.528 +03:00 [INF] Sending HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 09:55:14.548 +03:00 [INF] Received HTTP response headers after 19.4034ms - 200
+2024-08-05 09:55:14.549 +03:00 [INF] End processing HTTP request after 22.4348ms - 200
+2024-08-05 09:55:14.551 +03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[WebUI.Controllers.Product, WebUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-05 09:55:14.552 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.GetProducts (WebUI) in 24.985ms
+2024-08-05 09:55:14.553 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 09:55:14.554 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/GetProducts - 200 null application/json; charset=utf-8 32.8417ms
+2024-08-05 09:55:27.261 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/ - null null
+2024-08-05 09:55:27.264 +03:00 [INF] Executing endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 09:55:27.265 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.HomeController (WebUI).
+2024-08-05 09:55:27.267 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 09:55:27.269 +03:00 [INF] Executed ViewResult - view Index executed in 1.4799ms.
+2024-08-05 09:55:27.269 +03:00 [INF] Executed action WebUI.Controllers.HomeController.Index (WebUI) in 2.6952ms
+2024-08-05 09:55:27.270 +03:00 [INF] Executed endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 09:55:27.271 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/ - 200 null text/html; charset=utf-8 10.8387ms
+2024-08-05 09:55:27.279 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 09:55:27.279 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 09:55:27.285 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 6.0283ms
+2024-08-05 09:55:27.293 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.0795ms
+2024-08-05 09:55:29.018 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/ - null null
+2024-08-05 09:55:29.021 +03:00 [INF] Executing endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 09:55:29.021 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.HomeController (WebUI).
+2024-08-05 09:55:29.023 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 09:55:29.024 +03:00 [INF] Executed ViewResult - view Index executed in 1.5588ms.
+2024-08-05 09:55:29.025 +03:00 [INF] Executed action WebUI.Controllers.HomeController.Index (WebUI) in 2.3561ms
+2024-08-05 09:55:29.026 +03:00 [INF] Executed endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 09:55:29.026 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/ - 200 null text/html; charset=utf-8 8.2544ms
+2024-08-05 09:55:29.034 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 09:55:29.035 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 09:55:29.039 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 4.0918ms
+2024-08-05 09:55:29.042 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.7342ms
+2024-08-05 09:55:29.987 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/ViewCategories - null null
+2024-08-05 09:55:29.990 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.ViewCategories (WebUI)'
+2024-08-05 09:55:29.991 +03:00 [INF] Route matched with {action = "ViewCategories", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewCategories() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:55:29.992 +03:00 [INF] Executing ViewResult, running view ViewCategories.
+2024-08-05 09:55:29.993 +03:00 [INF] Executed ViewResult - view ViewCategories executed in 1.275ms.
+2024-08-05 09:55:29.994 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.ViewCategories (WebUI) in 2.2893ms
+2024-08-05 09:55:29.995 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.ViewCategories (WebUI)'
+2024-08-05 09:55:29.996 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/ViewCategories - 200 null text/html; charset=utf-8 9.041ms
+2024-08-05 09:55:30.005 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 09:55:30.005 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 09:55:30.009 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 3.9486ms
+2024-08-05 09:55:30.012 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/GetCategories - null null
+2024-08-05 09:55:30.013 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.8551ms
+2024-08-05 09:55:30.015 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.GetCategories (WebUI)'
+2024-08-05 09:55:30.017 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCategories() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 09:55:30.019 +03:00 [INF] Start processing HTTP request GET https://localhost:7258/api/categories/getall
+2024-08-05 09:55:30.019 +03:00 [INF] Sending HTTP request GET https://localhost:7258/api/categories/getall
+2024-08-05 09:55:30.021 +03:00 [INF] Received HTTP response headers after 0.8725ms - 404
+2024-08-05 09:55:30.022 +03:00 [INF] End processing HTTP request after 3.5138ms - 404
+2024-08-05 09:55:30.023 +03:00 [ERR] Error fetching categories: 
+2024-08-05 09:55:30.024 +03:00 [INF] Executing JsonResult, writing value of type 'null'.
+2024-08-05 09:55:30.024 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.GetCategories (WebUI) in 5.7221ms
+2024-08-05 09:55:30.025 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.GetCategories (WebUI)'
+2024-08-05 09:55:30.026 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/GetCategories - 200 null application/json; charset=utf-8 13.7183ms
+2024-08-05 09:55:32.324 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/ - null null
+2024-08-05 09:55:32.326 +03:00 [INF] Executing endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 09:55:32.326 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.HomeController (WebUI).
+2024-08-05 09:55:32.328 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 09:55:32.329 +03:00 [INF] Executed ViewResult - view Index executed in 1.0912ms.
+2024-08-05 09:55:32.329 +03:00 [INF] Executed action WebUI.Controllers.HomeController.Index (WebUI) in 2.021ms
+2024-08-05 09:55:32.330 +03:00 [INF] Executed endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 09:55:32.331 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/ - 200 null text/html; charset=utf-8 7.6142ms
+2024-08-05 09:55:32.337 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 09:55:32.337 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 09:55:32.341 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 4.3753ms
+2024-08-05 09:55:32.345 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.6722ms
+2024-08-05 11:01:19.488 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/Index - null null
+2024-08-05 11:01:19.502 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 11:01:19.503 +03:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 11:01:19.505 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 11:01:19.508 +03:00 [INF] Executed ViewResult - view Index executed in 2.4455ms.
+2024-08-05 11:01:19.518 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.Index (WebUI) in 13.849ms
+2024-08-05 11:01:19.518 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 11:01:19.519 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/Index - 200 null text/html; charset=utf-8 31.5672ms
+2024-08-05 11:01:19.520 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 11:01:19.520 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 11:01:19.527 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 6.3448ms
+2024-08-05 11:01:19.531 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/GetProducts - null null
+2024-08-05 11:01:19.537 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.6945ms
+2024-08-05 11:01:19.538 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 11:01:19.541 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 11:01:19.543 +03:00 [INF] Start processing HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 11:01:19.543 +03:00 [INF] Sending HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 11:01:19.568 +03:00 [INF] Received HTTP response headers after 23.399ms - 200
+2024-08-05 11:01:19.568 +03:00 [INF] End processing HTTP request after 25.5598ms - 200
+2024-08-05 11:01:19.569 +03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[WebUI.Controllers.Product, WebUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-05 11:01:19.570 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.GetProducts (WebUI) in 27.3817ms
+2024-08-05 11:01:19.571 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 11:01:19.571 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/GetProducts - 200 null application/json; charset=utf-8 40.7697ms
+2024-08-05 11:01:31.979 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/ - null null
+2024-08-05 11:01:31.982 +03:00 [INF] Executing endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 11:01:31.983 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.HomeController (WebUI).
+2024-08-05 11:01:31.985 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 11:01:31.985 +03:00 [INF] Executed ViewResult - view Index executed in 1.5041ms.
+2024-08-05 11:01:31.986 +03:00 [INF] Executed action WebUI.Controllers.HomeController.Index (WebUI) in 2.5194ms
+2024-08-05 11:01:31.987 +03:00 [INF] Executed endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 11:01:31.987 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/ - 200 null text/html; charset=utf-8 8.8129ms
+2024-08-05 11:01:31.995 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 11:01:31.995 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 11:01:32.003 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 7.1237ms
+2024-08-05 11:01:32.006 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.7782ms
+2024-08-05 11:02:05.955 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/Index - null null
+2024-08-05 11:02:05.963 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 11:02:05.964 +03:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 11:02:05.965 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 11:02:05.968 +03:00 [INF] Executed ViewResult - view Index executed in 3.3498ms.
+2024-08-05 11:02:05.973 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.Index (WebUI) in 7.8671ms
+2024-08-05 11:02:05.974 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 11:02:05.974 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/Index - 200 null text/html; charset=utf-8 19.5879ms
+2024-08-05 11:02:05.978 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 11:02:05.979 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 11:02:05.984 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 4.4037ms
+2024-08-05 11:02:05.987 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/GetProducts - null null
+2024-08-05 11:02:05.993 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.5651ms
+2024-08-05 11:02:05.995 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 11:02:05.998 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 11:02:06.000 +03:00 [INF] Start processing HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 11:02:06.001 +03:00 [INF] Sending HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 11:02:06.005 +03:00 [INF] Received HTTP response headers after 2.2966ms - 200
+2024-08-05 11:02:06.006 +03:00 [INF] End processing HTTP request after 5.3576ms - 200
+2024-08-05 11:02:06.007 +03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[WebUI.Controllers.Product, WebUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-05 11:02:06.008 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.GetProducts (WebUI) in 7.6583ms
+2024-08-05 11:02:06.009 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 11:02:06.011 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/GetProducts - 200 null application/json; charset=utf-8 23.009ms
+2024-08-05 11:02:19.572 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/Index - null null
+2024-08-05 11:02:19.574 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 11:02:19.575 +03:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 11:02:19.577 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 11:02:19.578 +03:00 [INF] Executed ViewResult - view Index executed in 1.4445ms.
+2024-08-05 11:02:19.579 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.Index (WebUI) in 2.6227ms
+2024-08-05 11:02:19.580 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 11:02:19.580 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/Index - 200 null text/html; charset=utf-8 8.8043ms
+2024-08-05 11:02:19.588 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 11:02:19.590 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 11:02:19.595 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 4.2997ms
+2024-08-05 11:02:19.595 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.3611ms
+2024-08-05 11:02:19.602 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/GetProducts - null null
+2024-08-05 11:02:19.603 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 11:02:19.604 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 11:02:19.605 +03:00 [INF] Start processing HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 11:02:19.606 +03:00 [INF] Sending HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 11:02:19.608 +03:00 [INF] Received HTTP response headers after 1.6195ms - 200
+2024-08-05 11:02:19.609 +03:00 [INF] End processing HTTP request after 3.6757ms - 200
+2024-08-05 11:02:19.610 +03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[WebUI.Controllers.Product, WebUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-05 11:02:19.611 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.GetProducts (WebUI) in 5.5525ms
+2024-08-05 11:02:19.612 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 11:02:19.612 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/GetProducts - 200 null application/json; charset=utf-8 10.7649ms
+2024-08-05 11:02:23.315 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/ - null null
+2024-08-05 11:02:23.318 +03:00 [INF] Executing endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 11:02:23.319 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.HomeController (WebUI).
+2024-08-05 11:02:23.320 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 11:02:23.322 +03:00 [INF] Executed ViewResult - view Index executed in 1.4267ms.
+2024-08-05 11:02:23.322 +03:00 [INF] Executed action WebUI.Controllers.HomeController.Index (WebUI) in 2.2001ms
+2024-08-05 11:02:23.323 +03:00 [INF] Executed endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 11:02:23.324 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/ - 200 null text/html; charset=utf-8 8.9855ms
+2024-08-05 11:02:23.331 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 11:02:23.331 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 11:02:23.337 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 6.4285ms
+2024-08-05 11:02:23.340 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.9834ms
+2024-08-05 11:02:24.042 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/Index - null null
+2024-08-05 11:02:24.044 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 11:02:24.045 +03:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 11:02:24.046 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 11:02:24.047 +03:00 [INF] Executed ViewResult - view Index executed in 1.0856ms.
+2024-08-05 11:02:24.048 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.Index (WebUI) in 2.0798ms
+2024-08-05 11:02:24.049 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 11:02:24.049 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/Index - 200 null text/html; charset=utf-8 7.059ms
+2024-08-05 11:02:24.058 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 11:02:24.058 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 11:02:24.062 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 3.9183ms
+2024-08-05 11:02:24.064 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 6.6086ms
+2024-08-05 11:02:24.071 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/GetProducts - null null
+2024-08-05 11:02:24.073 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 11:02:24.074 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 11:02:24.076 +03:00 [INF] Start processing HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 11:02:24.077 +03:00 [INF] Sending HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 11:02:24.078 +03:00 [INF] Received HTTP response headers after 0.9974ms - 200
+2024-08-05 11:02:24.079 +03:00 [INF] End processing HTTP request after 3.595ms - 200
+2024-08-05 11:02:24.080 +03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[WebUI.Controllers.Product, WebUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-05 11:02:24.081 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.GetProducts (WebUI) in 5.2887ms
+2024-08-05 11:02:24.082 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 11:02:24.083 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/GetProducts - 200 null application/json; charset=utf-8 11.4764ms
+2024-08-05 13:54:31.621 +03:00 [INF] Starting up
+2024-08-05 13:54:32.311 +03:00 [INF] User profile is available. Using 'C:\Users\deniz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-05 13:54:32.502 +03:00 [INF] Now listening on: https://localhost:7046
+2024-08-05 13:54:32.504 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-05 13:54:32.505 +03:00 [INF] Hosting environment: Development
+2024-08-05 13:54:32.506 +03:00 [INF] Content root path: C:\Users\deniz\source\repos\DotnetCap\WebUI
+2024-08-05 13:54:33.876 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/ - null null
+2024-08-05 13:54:33.958 +03:00 [INF] Executing endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 13:54:33.981 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.HomeController (WebUI).
+2024-08-05 13:54:33.989 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 13:54:34.024 +03:00 [INF] Executed ViewResult - view Index executed in 36.9034ms.
+2024-08-05 13:54:34.029 +03:00 [INF] Executed action WebUI.Controllers.HomeController.Index (WebUI) in 46.3456ms
+2024-08-05 13:54:34.030 +03:00 [INF] Executed endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 13:54:34.034 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/ - 200 null text/html; charset=utf-8 158.5241ms
+2024-08-05 13:54:34.036 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 13:54:34.036 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 13:54:34.049 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 13.3075ms
+2024-08-05 13:54:34.078 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.8848ms
+2024-08-05 14:06:28.021 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/Index - null null
+2024-08-05 14:06:28.037 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 14:06:28.039 +03:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 14:06:28.044 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 14:06:28.061 +03:00 [INF] Executed ViewResult - view Index executed in 17.9114ms.
+2024-08-05 14:06:28.068 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 14:06:28.068 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 14:06:28.077 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 8.6666ms
+2024-08-05 14:06:28.073 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.Index (WebUI) in 32.6086ms
+2024-08-05 14:06:28.092 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.Index (WebUI)'
+2024-08-05 14:06:28.093 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.6458ms
+2024-08-05 14:06:28.094 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/Index - 200 null text/html; charset=utf-8 73.6039ms
+2024-08-05 14:06:28.097 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/GetProducts - null null
+2024-08-05 14:06:28.102 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 14:06:28.107 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 14:06:28.122 +03:00 [INF] Start processing HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 14:06:28.124 +03:00 [INF] Sending HTTP request GET https://localhost:7183/api/products/getall
+2024-08-05 14:06:28.174 +03:00 [INF] Received HTTP response headers after 45.9271ms - 200
+2024-08-05 14:06:28.177 +03:00 [INF] End processing HTTP request after 56.7869ms - 200
+2024-08-05 14:06:28.207 +03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[WebUI.Controllers.Product, WebUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-05 14:06:28.213 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.GetProducts (WebUI) in 103.7457ms
+2024-08-05 14:06:28.214 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.GetProducts (WebUI)'
+2024-08-05 14:06:28.215 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/GetProducts - 200 null application/json; charset=utf-8 118.6582ms
+2024-08-05 14:06:42.701 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/Products/UpdateCategory - null null
+2024-08-05 14:06:42.708 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.UpdateCategory (WebUI)'
+2024-08-05 14:06:42.710 +03:00 [INF] Route matched with {action = "UpdateCategory", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateCategory() on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 14:06:42.711 +03:00 [INF] Executing ViewResult, running view UpdateCategory.
+2024-08-05 14:06:42.722 +03:00 [INF] Executed ViewResult - view UpdateCategory executed in 10.7452ms.
+2024-08-05 14:06:42.724 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.UpdateCategory (WebUI) in 12.8904ms
+2024-08-05 14:06:42.724 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.UpdateCategory (WebUI)'
+2024-08-05 14:06:42.726 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/Products/UpdateCategory - 200 null text/html; charset=utf-8 24.9185ms
+2024-08-05 14:06:42.734 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 14:06:42.734 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 14:06:42.738 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 4.3094ms
+2024-08-05 14:06:42.742 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.8361ms
+2024-08-05 14:06:49.851 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7046/Products/UpdateCategory - application/json 53
+2024-08-05 14:06:49.854 +03:00 [INF] Executing endpoint 'WebUI.Controllers.ProductsController.UpdateCategory (WebUI)'
+2024-08-05 14:06:49.862 +03:00 [INF] Route matched with {action = "UpdateCategory", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateCategory(WebUI.Controllers.UpdateCategoryDto) on controller WebUI.Controllers.ProductsController (WebUI).
+2024-08-05 14:06:49.880 +03:00 [INF] Start processing HTTP request POST https://localhost:7258/api/categories/update
+2024-08-05 14:06:49.881 +03:00 [INF] Sending HTTP request POST https://localhost:7258/api/categories/update
+2024-08-05 14:06:49.901 +03:00 [INF] Received HTTP response headers after 19.312ms - 404
+2024-08-05 14:06:49.902 +03:00 [INF] End processing HTTP request after 22.2103ms - 404
+2024-08-05 14:06:49.903 +03:00 [ERR] Error updating category: 
+2024-08-05 14:06:49.904 +03:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-05 14:06:49.909 +03:00 [INF] Executed action WebUI.Controllers.ProductsController.UpdateCategory (WebUI) in 45.9138ms
+2024-08-05 14:06:49.911 +03:00 [INF] Executed endpoint 'WebUI.Controllers.ProductsController.UpdateCategory (WebUI)'
+2024-08-05 14:06:49.912 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7046/Products/UpdateCategory - 200 null application/json; charset=utf-8 60.4ms
+2024-08-05 14:07:03.733 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/ - null null
+2024-08-05 14:07:03.737 +03:00 [INF] Executing endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 14:07:03.738 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebUI.Controllers.HomeController (WebUI).
+2024-08-05 14:07:03.740 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-05 14:07:03.741 +03:00 [INF] Executed ViewResult - view Index executed in 1.0246ms.
+2024-08-05 14:07:03.742 +03:00 [INF] Executed action WebUI.Controllers.HomeController.Index (WebUI) in 2.2601ms
+2024-08-05 14:07:03.743 +03:00 [INF] Executed endpoint 'WebUI.Controllers.HomeController.Index (WebUI)'
+2024-08-05 14:07:03.743 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/ - 200 null text/html; charset=utf-8 10.7151ms
+2024-08-05 14:07:03.754 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-05 14:07:03.754 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - null null
+2024-08-05 14:07:03.757 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 2.3328ms
+2024-08-05 14:07:03.765 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.425ms

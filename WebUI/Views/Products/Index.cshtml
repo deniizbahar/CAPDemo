@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Products";
+}
+
+<h2>Products</h2>
+<div id="productList">
+    <!-- Ürün listesi burada gösterilecek -->
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        fetch('/Products/GetProducts')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.text(); // Yanıtı metin olarak okur
+            })
+            .then(text => {
+                try {
+                    const data = JSON.parse(text); // Metni JSON'a dönüştürmeye çalışır
+                    if (data) {
+                        displayProducts(data);
+                    } else {
+                        throw new Error('Parsed data is null or undefined');
+                    }
+                } catch (error) {
+                    console.error('Error parsing JSON:', error);
+                    document.getElementById('productList').innerHTML = 'Error parsing JSON.';
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching product list:', error);
+                document.getElementById('productList').innerHTML = 'Error loading products.';
+            });
+    });
+
+    function displayProducts(products) {
+        var productList = document.getElementById('productList');
+        productList.innerHTML = '';
+
+        if (!Array.isArray(products)) {
+            console.error('Products data is not an array:', products);
+            document.getElementById('productList').innerHTML = 'Invalid product data.';
+            return;
+        }
+
+        products.forEach(product => {
+            var productItem = document.createElement('div');
+            productItem.innerHTML = `
+                    <h3>${product.productName}</h3>
+                    <p>Category: ${product.categoryName}</p>
+                    <p>Quantity: ${product.quantity}</p>
+                    <p>Price: ${product.unitPrice}</p>
+                `;
+            productList.appendChild(productItem);
+        });
+    }
+</script>

@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Update Category";
+}
+
+<h2>Update Category</h2>
+<form id="updateCategoryForm">
+    <div>
+        <label for="categoryId">Category ID:</label>
+        <input type="text" id="categoryId" name="categoryId" required>
+    </div>
+    <div>
+        <label for="newCategoryName">New Category Name:</label>
+        <input type="text" id="newCategoryName" name="newCategoryName" required>
+    </div>
+    <button type="submit">Update Category</button>
+</form>
+<div id="updateResult"></div>
+
+<script>
+    document.getElementById('updateCategoryForm').addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        var categoryId = document.getElementById('categoryId').value;
+        var newCategoryName = document.getElementById('newCategoryName').value;
+
+        var updateData = {
+            CategoryId: categoryId,
+            NewCategoryName: newCategoryName
+        };
+
+        fetch('/Products/UpdateCategory', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(updateData)
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json(); // Yanıtı JSON olarak okur
+            })
+            .then(data => {
+                if (data.success) {
+                    document.getElementById('updateResult').innerHTML = 'Category updated successfully.';
+                } else {
+                    document.getElementById('updateResult').innerHTML = 'Error updating category.';
+                }
+            })
+            .catch(error => {
+                console.error('Error updating category:', error);
+                document.getElementById('updateResult').innerHTML = 'Error updating category.';
+            });
+    });
+</script>
